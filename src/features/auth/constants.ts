@@ -1,0 +1,1 @@
+export const AUTH_COOKIE="iic-jira-iic-session";
