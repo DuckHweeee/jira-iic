@@ -19,7 +19,7 @@ export const useLogin = () => {
       });
 
       if (!respone.ok) {
-        throw new Error("Failed to login");
+        throw new Error(" to login");
       }
 
       return await respone.json();

@@ -9,7 +9,7 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default:
+        primary:
           "bg-gradient-to-b from-blue-600 to-blue-700 text-primary-foreground shadow-sm hover:from-blue-700 hover:to-blue-700",
         destructive:
           "bg-gradient-to-b form-amber-600 to-amber-700 text-destructive-foreground shadow-sm hover:from-amber-700 hover:to-amber-700",
@@ -32,7 +32,7 @@ const buttonVariants = cva(
       },
     },
     defaultVariants: {
-      variant: "default",
+      variant: "primary",
       size: "default",
     },
   }
